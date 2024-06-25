@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="sidebar">
+            <div class="sidebar-nav">
+                <div class="button1" style="opacity: 1;"><button class="button" > <img class="logo" src="spotifybw.jpg" style="height: 1.5rem;" alt=""> Spotify</button> </div>
+                <div class="button2"><button class="button" ><i class="fa-solid fa-house" id="h1"></i>Home</button></div>
+                <div class="button3"><button class="button" ><i class="fa-solid fa-magnifying-glass" id="h2"></i>Search</button></div>
+            </div>
+            <div class="sidebar-lib">
+                <div class="sls">
+                    <p id="lib"> <img src="library_icon.png" alt="" id="library_icon"> Your Library</p>
+                    <p class="pl"><i class="fa-solid fa-plus" id="pl"></i></p>
+                </div>
+                <div class="scs">
+                    <div class="scs1">
+                        <h4>Create your first playlist</h4>
+                        <p>it's easy,we'll help you</p>
+                        <span class="badge">Create playlist</span>
+                    </div>
+                    <div class="scs2">
+                        <h4>Create your first playlist</h4>
+                        <p>it's easy,we'll help you</p>
+                        <span class="badge">Create playlist</span>
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="main-block">
+            <div class="main-top">
+                <div class="main-arrow">
+                    <i class="fa-solid fa-chevron-left" id="ar1"></i>
+                    <i class="fa-solid fa-chevron-right" id="ar2"></i>
+                </div>
+                <div class="main-info">
+                    <button id="sign">Sign up</button>
+                    <span class="badge" id="log">Log in</span>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="mc-top">
+                    <div class="sp"><h2 id="heading">Spotify Playlists</h2></div>
+                    <div class="sh"><p>Show all</p></div>
+                </div>
+            </div>
+
+            <div class="main-card">
+                <div class="card">
+                    <img src="card1img.jpeg" alt="" id="card-image">
+                    <br>
+                    <head>Top 50 GLOBAL</head><br>
+                    <pre>perfect soundtrack as per 
+your choices...</pre>
+                </div>
+                <div class="card">
+                    <img src="card2img.jpeg" alt="" id="card-image">
+                    <br>
+                    <head>Top 50 GLOBAL</head><br>
+                    <pre>perfect soundtrack as per 
+your choices...</pre>
+                </div>
+                <div class="card">
+                    <img src="card3img.jpeg" alt="" id="card-image">
+                    <br>
+                    <head>Top 50 GLOBAL</head><br>
+                    <pre>perfect soundtrack as per 
+your choices...</pre>
+                </div>
+                <div class="card">
+                    <img src="card4img.jpeg" alt="" id="card-image">
+                    <br>
+                    <head>Top 50 GLOBAL</head><br>
+                    <pre>perfect soundtrack as per 
+your choices...</pre>
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" alt="" id="card-image">
+                    <br>
+                    <head>Top 50 GLOBAL</head><br>
+                    <pre>perfect soundtrack as per 
+your choices...</pre>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" alt="" id="card-image">
+                    <br>
+                    <head>Top 50 GLOBAL</head><br>
+                    <pre>perfect soundtrack as per 
+your choices...</pre>
+                </div>
+                <div class="card">
+                    <img src="card1img.jpeg" alt="" id="card-image">
+                    <br>
+                    <head>Top 50 GLOBAL</head><br>
+                    <pre>perfect soundtrack as per 
+your choices...</pre>
+                </div>
+            </div>
+            <div class="main-footer">
+                <div class="line"></div>
+            </div>
+        </div>
+            
+
+        <div class="music-player">
+            <div class="music">
+                <div class="mphoto"><img src="https://upload.wikimedia.org/wikipedia/en/1/1e/David_Kushner-_Daylight.png" style="height: 4rem;width: 4rem;" alt=""></div>
+                <div class="mname">Daylight
+                    <p id="mp">David kushner</p>
+                </div>
+                <div class="micon">
+                    <img src="heart.png" style="height: 1.3rem;" alt="">
+                    <i class="fa-solid fa-window-maximize fa-lg" id="iw"></i>
+                   <!-- <div class="i1"><img src="heart.png" style="height: 1.3rem;" alt=""></div> 
+                    <div class="i2"><i class="fa-solid fa-window-maximize fa-lg"></i></div>  -->
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="control">
+                    <button><i class="fa-solid fa-shuffle fa-lg" style="color: #ffffff;"></i></button>
+                    <button><i class="fa-solid fa-backward-step fa-lg" style="color: #ffffff;"></i></button>
+                    <button style="opacity: 1;" ><i class="fa-solid fa-circle-play fa-2xl" style="color: #ffffff;" id="play" ></i></button>
+                    <button><i class="fa-solid fa-forward-step fa-lg" style="color: #ffffff;"></i></button>
+                    <button><i class="fa-solid fa-repeat fa-lg" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">03:40</span>
+                </div>
+            </div>
+
+
+            <div class="option">
+                <img src="op1.jpg" alt="" id="op1">
+                <img src="data:image/png;base64,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" alt="" id="op2"> 
+                <i class="fa-solid fa-sliders fa-xl" id="op3"></i>
+                <i class="fa-solid fa-mobile-button fa-xl" id="op4"></i>
+                <i class="fa-solid fa-volume-high fa-xl" id="op5"></i>
+                <div class="sline"></div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
